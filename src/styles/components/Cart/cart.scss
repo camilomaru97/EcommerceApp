@@ -1,0 +1,111 @@
+
+.general_container{
+
+    display: flex;
+
+    .cart_container{
+        margin: 2rem 5rem;
+        flex: 50%;
+    
+        .msg_warning{
+            width: 100%;
+            margin: 1rem 0rem;
+        }
+    
+        .entrega_add{
+            width: 100%;
+            height: 260px;
+            background-color: #D7D2BF;
+            padding: 2rem;
+            border-radius: 1rem;
+    
+            h3{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+        }
+    
+        .cart_product{
+            margin-top: 2rem;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            
+            .box_cart_product{
+                display: flex;
+                border: 1px solid #D7D2BF;
+                border-radius: 16px;
+                margin-bottom: 1rem;
+            }
+            
+            .cart_product_img{
+                width: 50%;
+                height: 232px;
+
+                img{
+                    width: 75%;
+                    border-radius: 1rem 0rem 0rem 1rem ;
+                }
+            }
+
+            .cart_product_info{
+                margin-top: 1rem;
+                margin-left: -2rem;
+                width: 300px;
+                position: relative;
+
+                select{
+                    margin-top: .5rem;
+                    width: 200px;
+                    height: 40px;
+                    border: 1px solid #D7D2BF;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 1rem;
+                }
+
+                .close{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 3px;
+                    right: 0px;
+
+                    &:hover{
+                        color: #EB6161;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .cart_payment{
+        flex: 50%;
+        padding-right: 5rem;
+        margin-top: 11rem;
+
+        button{
+            width: 100%;
+            height: 50px;
+            background-color: black;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            width: 87%;
+            height: 40px;
+
+            &:hover{
+                color: black;
+                background-color: white;
+            }
+
+            div{
+                display: flex;
+            }
+        }
+    }
+
+}
+

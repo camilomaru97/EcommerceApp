@@ -1,0 +1,29 @@
+@import './base/base';
+@import './base/settings';
+
+
+// Home
+@import './components/home/home.scss';
+
+// Products
+@import './components/products/products.scss';
+
+// Footer
+@import './components/footer/footer.scss';
+
+// GoogleMaps
+@import './components/Maps/maps.scss';
+
+// ProductPage
+@import './components/selectproductinfo.scss'; 
+
+// interactionproduct
+@import './components/interactionpro.scss';
+
+//Cart
+@import './components/Cart/cart.scss';
+
+// AdminProducts
+@import './components/adminProducts/adminproducts.scss';
+
+@import './components/InfoEntrega/infoentrega.scss';

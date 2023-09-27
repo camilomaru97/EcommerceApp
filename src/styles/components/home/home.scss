@@ -1,0 +1,130 @@
+main{
+    background-color: var(--color-background);
+}
+
+.home_header{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    padding: .5rem 5rem;
+    align-items: center;
+
+    a{
+        flex: 200px;
+    }
+
+    .search_input{
+        text-align: center;
+        width: 10%;
+        flex-grow: 1;
+        height: 38px;
+        position: relative;
+        
+        .search{
+            color: #9b9898;
+            position: absolute;
+            top: 7px;
+            left: 3rem;
+        }
+        input{
+            text-align: start;
+            flex-grow: 1;
+            height: 38px;
+            width: 85%;
+            border-radius: 5px;
+            background-color: #F4F4F4;
+            padding-left: 3rem;
+            color: #9b9898;
+        }
+        input::placeholder{
+            color: #A4A4A4;
+            margin-left: 1rem;
+            font-size: .9rem;
+        }
+    }
+    
+    
+    section{
+        justify-content: end;
+        flex: 200px;
+        display: flex;
+        align-items: center;
+
+        span{
+            
+            margin: 0 .5rem;
+            vertical-align: -6px;
+        }
+
+        p{
+            font-size: .8rem;
+        }
+
+        .favorite{
+            cursor: pointer;
+            text-align: center;
+            margin-bottom: -5px;
+            margin-left: 1rem;
+        }
+
+        .cart{
+            cursor: pointer;
+            text-align: center;
+            margin-bottom: -5px;
+            position: relative;
+
+            .cart_number{
+                background-color: #ECCD57;
+                width: 25px;
+                border-radius: 50%;
+                position: absolute;
+                top: -10px;
+                right: -5px;
+            }
+        }
+    }
+
+    .user_profile{
+        cursor: pointer;
+        position: relative;
+        .acount{
+            font-size: 3.6rem;
+        }
+
+        .admin{
+            background-color: #EB6161;
+            color: white;
+            padding: .3rem .5rem;
+            border-radius: 5px;
+            position: absolute;
+            right: -1.3rem;
+        }
+    }
+}
+
+.home_nav{
+    display: flex;
+    justify-content: start;
+    color: #A4A4A4;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    a{
+        margin: 0 1rem;
+        margin-right: 1rem;
+        font-weight: 500;
+        color: black;
+        cursor: pointer;
+    }  
+
+    .active{
+        color: #EB6161;
+    }
+}
+
+hr{
+
+    margin: auto;
+    width: 89%;
+    height: 2px;
+    background: #d8d6d6;
+}

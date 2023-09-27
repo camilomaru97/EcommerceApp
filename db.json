@@ -1,0 +1,196 @@
+{
+  "productos": [
+    {
+      "id": "1695786000324",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695786563/ecommerce/flxjfrl1galeibhqm7uf.avif",
+      "name": "Tenis Samba OG",
+      "descripcion": "Los tenis adidas Samba han formado parte del ADN de las 3 Rayas por décadas. La silueta clásica ha traspasado los límites de la cancha de fútbol para influir en innumerables culturas y pioneros en el mundo de la moda. Este par conmemora los años 70, cuando un exclusivo programa de billetes de tren de un mes permitía a aventureros de todo el mundo explorar 21 países europeos. Estos clásicos te ayudan a enfrentar tu próxima aventura con estilo.",
+      "section": "Men",
+      "stock": "20",
+      "precio": "560000",
+      "codigoEAN": "ASDPOIQWE-12",
+      "comments": [
+        {
+          "id": "1695792593119",
+          "createAt": "Wed Sep 27 2023 00:29:53 GMT-0500 (Colombia Standard Time)",
+          "comment": "De los mejores productos que he probado, realmente son muy comodos"
+        },
+        {
+          "id": "1695792610739",
+          "createAt": "Wed Sep 27 2023 00:30:10 GMT-0500 (Colombia Standard Time)",
+          "comment": "Quisiera tenerlos en otro color, siempre sacan los mismo!!!"
+        },
+        {
+          "id": "1695792981450",
+          "createAt": "Wed Sep 27 2023 00:36:21 GMT-0500 (Colombia Standard Time)",
+          "comment": "No se porque se me dañaron tan rapido, siempre he confiado mucho en este tipo de productos"
+        }
+      ]
+    },
+    {
+      "id": "1695786588707",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695786734/ecommerce/tydbhrsczyyxmy1vf4be.avif",
+      "name": "Tenis Ultraboost 22",
+      "descripcion": "Disfruta de una comodidad y respuesta increíbles con estos tenis de running Ultraboost. Presentan una mediasuela BOOST que te proporciona un retorno de energía sin límites, un sistema Linear Energy Push y una suela con compuesto de caucho Continental™. Estos tenis presentan una parte superior fabricada con un hilo reciclado de alto rendimiento creado con al menos un 50% de Parley Ocean Plastic —  un material reinventado a partir de residuos plásticos recogidos en zonas costeras para evitar que contaminen nuestros océanos.",
+      "section": "Men",
+      "stock": "10",
+      "precio": "625000",
+      "codigoEAN": "ASDMNBQWE-01",
+      "comments": []
+    },
+    {
+      "id": "1695786739046",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695786832/ecommerce/ntlswzoliyvqsmz6w9vn.avif",
+      "name": "Tenis Zpezial",
+      "descripcion": "Handball Spezial W es un nuevo producto para Mujer de adidas. Te invitamos a ver las imágenes para apreciar más detalles desde diferentes ángulos. Si ya conoces Handball Spezial W S puedes dejar una reseña abajo; siempre nos encanta conocer tu opinión.\n\nAún estamos trabajando para tener más información de Handball Spezial W, así que vuelva pronto. Mientras tanto, toma nota del número de artículo que identifica el producto IF6562 para que lo puedas encontrar de nuevo fácilmente. Está categorizado como: Zapatillas y Tenis",
+      "section": "Men",
+      "stock": "15",
+      "precio": "580000",
+      "codigoEAN": "ASDPOUJHG-04",
+      "comments": []
+    },
+    {
+      "id": "1695786838077",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695786973/ecommerce/gcjb7tl2lxa2wgsx7oo8.avif",
+      "name": "Tenis Superstar",
+      "descripcion": "Los tenis adidas Superstar han seguido mostrando su estilo atemporal desde su presentación hace más de 50 años. Este par toma elementos de diseño clásico como la puntera y las 3 Rayas, y eleva la mediasuela para aportar un toque de personalidad. Los colores llamativos te dan un sinfín de combinaciones que puedes combinar con tus outfits.",
+      "section": "Men",
+      "stock": "30",
+      "precio": "425500",
+      "codigoEAN": "QWEVGYPLK-06",
+      "comments": []
+    },
+    {
+      "id": "1695786979506",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787079/ecommerce/mx6srf3jzmls1ymch5fp.avif",
+      "name": "Tenis Terrex",
+      "descripcion": "Explora más. Asómbrate más. Sin importar el terreno, estos tenis adidas te permiten elegir la ruta. Su diseño técnico incorpora un exterior de malla de sujeción y un sistema de amarre que asegura tu pie para un control óptimo en terrenos irregulares. La suela ranurada Traxion te brinda un agarre sobre todo tipo de terreno para que puedas llegar a donde quieras ir.\n\nEste producto está hecho con Primegreen, una serie de materiales reciclados de alto desempeño. 50 % del exterior está hecho con material reciclado. No contienen poliéster virgen.",
+      "section": "Men",
+      "stock": "40",
+      "precio": "430000",
+      "codigoEAN": "ASDNJIGFD-20",
+      "comments": []
+    },
+    {
+      "id": "1695787081900",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787201/ecommerce/eul8v7cypcvfu1v8apak.avif",
+      "name": "Tenis Duramo ",
+      "descripcion": "Siente la ligereza y velocidad. Si estás listo para subir el ritmo y entrenar para distancias de hasta 10 kilómetros, estos tenis para correr de adidas te ayudarán en tus carreras con la máxima comodidad. Presenta una parte superior de monomalla ligera y una mediasuela LIGHTMOTION que te proporciona una gran estabilidad. En la pista o en asfalto, la suela Adiwear proporciona durabilidad y agarre.\n\nEl exterior contiene al menos un 50 % de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
+      "section": "Women",
+      "stock": "8",
+      "precio": "510000",
+      "codigoEAN": "QWEPOUHGF-01",
+      "comments": []
+    },
+    {
+      "id": "1695787202929",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787403/ecommerce/a7hdqywuyt5fe565g3pt.avif",
+      "name": "Tenis Gazelle",
+      "descripcion": "Los tenis adidas Gazelle han trascendido el paso del tiempo, las modas y las generaciones. Lanzados en 1996, siguen siendo uno de los diseños más queridos de adidas. Esta versión presenta materiales y detalles fieles a la época que la vio nacer, como la gamuza prémium, el logotipo dorado y la emblemática puntera en forma de T. La suela de caucho triplemente apilada le da un gran impulso, junto con un detalle en el cordón hecho con perlas de colores y un pin dorado metálico.",
+      "section": "Men",
+      "stock": "15",
+      "precio": "460000",
+      "codigoEAN": "MKOBHUXR-23",
+      "comments": []
+    },
+    {
+      "id": "1695787405816",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787593/ecommerce/xebnqqgkq7qoa3zryglq.avif",
+      "name": "Tenis Forum",
+      "descripcion": "¿Qué hace que los tenis adidas Forum sean tan icónicos? ¿Su historia en las canchas? ¿El apoyo de leyendas de la música? ¿Su atractivo atemporal? ¿Qué te parece todo lo anterior? Estos tenis adidas combinan elementos originales de los 80, el detalle en X, la banda elástica del tobillo, la icónica suela de caucho y detalles de reptil en el elegante exterior adornado con cuero y gamuza. El forro interno de felpa crea un ajuste cómodo para que te sientas tan bien como te ves.",
+      "section": "Women",
+      "stock": "18",
+      "precio": "780900",
+      "codigoEAN": "QWEZSEBHU-11",
+      "comments": []
+    },
+    {
+      "id": "1695787597975",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787765/ecommerce/vds5nygcsx3z7vpccar9.avif",
+      "name": "Tenis Bravada",
+      "descripcion": "Los tenis de lona tienen una esencia clásica y este diseño de adidas la aprovecha al máximo. La suela gruesa con plataforma eleva tu look con actitud y audacia, pero nunca a expensas de la comodidad. La amortiguación Cloudfoam te brinda amortiguación durante todo el día para mayor comodidad, y la suela de caucho brinda un agarre sólido que completa el look informal y moderno.\n\nTrabajamos con Better Cotton para mejorar el cultivo del algodón a nivel mundial. Better Cotton hace que la producción mundial de algodón sea mejor para las personas que lo producen, mejor para el medio ambiente en el que crece y mejor para el futuro del sector. \n\nEl algodón Better Cotton se obtiene a través de un modelo de cadena de custodia llamado balance de masas. Esto significa que Better Cotton no es físicamente rastreable a nivel de productos finales. Sin embargo, los agricultores de Better Cotton se benefician de la demanda de Better Cotton en volúmenes equivalentes a los que utilizamos como marca.",
+      "section": "Women",
+      "stock": "5",
+      "precio": "250000",
+      "codigoEAN": "BHUESZLKJ-19",
+      "comments": []
+    },
+    {
+      "id": "1695787773714",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787859/ecommerce/rimahudfgi2qd38yxxwx.avif",
+      "name": "Tenis Bonega",
+      "descripcion": "El look que ya conoces y adoras con una suela de plataforma Puede que sea solo un pequeño cambio, pero hace toda la diferencia para estos tenis Stan Smith de adidas. La suela elevada se destaca aún más con un ribete de suela de doble capa que enfatiza las proporciones. El exterior suave de primera calidad le añade un elemento premium al modelo, convirtiéndolo en el balance perfecto entre un look de bajo y alto perfil, y en el par de tenis ideal para combinar con todo.",
+      "section": "Women",
+      "stock": "50",
+      "precio": "800000",
+      "codigoEAN": "BHUOKMGHJ-19",
+      "comments": []
+    },
+    {
+      "id": "1695787861904",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787970/ecommerce/cxjudldbd9atjbfksbw5.avif",
+      "name": "Tenis Lite Racer",
+      "descripcion": "El deporte se presenta de muchas formas. Estos tenis inspirados en el estilo del running son perfectos para esos días ajetreados en los que estás siempre en movimiento. La cómoda amortiguación Cloudfoam de la mediasuela mantiene tus pies energizados en todo momento. Las 3 Rayas le confieren un toque deportivo e informal al mismo tiempo.\n\nEste producto está hecho con Primegreen, una serie de materiales reciclados de alto desempeño. 50 % del exterior está hecho con material reciclado. No contienen poliéster virgen.",
+      "section": "Women",
+      "stock": "10",
+      "precio": "300000",
+      "codigoEAN": "IJNVGYESZ-01",
+      "comments": []
+    },
+    {
+      "id": "1695787972207",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788000/ecommerce/dc6yd7azsd0srsgx857s.avif",
+      "name": "Tenis Advantage",
+      "descripcion": "El deporte se presenta de muchas formas. Estos tenis inspirados en el estilo del running son perfectos para esos días ajetreados en los que estás siempre en movimiento. La cómoda amortiguación Cloudfoam de la mediasuela mantiene tus pies energizados en todo momento. Las 3 Rayas le confieren un toque deportivo e informal al mismo tiempo.\n\nEste producto está hecho con Primegreen, una serie de materiales reciclados de alto desempeño. 50 % del exterior está hecho con material reciclado. No contienen poliéster virgen.",
+      "section": "Women",
+      "stock": "20",
+      "precio": "460000",
+      "codigoEAN": "BHUIJNBHU-23",
+      "comments": []
+    },
+    {
+      "id": "1695788170147",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788232/ecommerce/q9f7gzmtlmuxxy3pzi8c.avif",
+      "name": "Te nis Duramo RC",
+      "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
+      "section": "Sport",
+      "stock": "8",
+      "precio": "300000",
+      "codigoEAN": "BHUUHBNJI-11",
+      "comments": []
+    },
+    {
+      "id": "1695788235947",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788349/ecommerce/k6dl6q2uefgk0arpkzze.avif",
+      "name": "Tenis Run Always",
+      "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
+      "section": "Sport",
+      "stock": "13",
+      "precio": "740000",
+      "codigoEAN": "IJNQQWEVGG-1",
+      "comments": []
+    },
+    {
+      "id": "1695788351051",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788396/ecommerce/ascwiydmnc8ybvr2a7gy.avif",
+      "name": "Tenis Running Res",
+      "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
+      "section": "Sport",
+      "stock": "12",
+      "precio": "320000",
+      "codigoEAN": "ASDAAAFGR-30",
+      "comments": []
+    },
+    {
+      "id": "1695788468472",
+      "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788516/ecommerce/z4va1k0pwsnhsbnr9akp.avif",
+      "name": "Duramo Retro Run",
+      "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
+      "section": "Sport",
+      "stock": "30",
+      "precio": "240000",
+      "codigoEAN": "POIUYTREW-22",
+      "comments": []
+    }
+  ]
+}

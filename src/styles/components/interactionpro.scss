@@ -1,0 +1,171 @@
+
+.interaction-product{
+    padding: 2rem 5.2rem;
+    h2{
+        color: #A6A6A6;
+        margin-bottom: 1rem;
+    }
+
+    .header_coments{
+        display: flex;
+
+        h2{
+            cursor: pointer;
+        }
+
+        h2:first-child{
+            margin-right: 2rem;
+        }
+    }
+}
+
+.comentarios_container{
+    height: auto;
+    display: flex;
+    background-color: white;
+    .comentarios_section{
+        flex: 50%;
+    }
+    .ofertas_section{
+        flex-grow: 1;
+    }
+}
+
+.comentario_box{
+    display: flex;
+    margin-bottom: 1rem;
+    text-align: start;
+
+    .info_comentario{    
+    p{
+        width: 550px;
+    }
+}
+
+    .acount{
+        font-size: 3rem;
+        font-weight: 400;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    .stars{
+        color: #ECCD57;
+        cursor: pointer;
+    }
+
+    p{
+        margin-bottom: .5rem;
+    }
+}
+
+.border_comentario{
+    border-bottom: 1px solid #d8d6d6;
+    width: 79%;
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 2rem;
+}
+
+.ofertas_section{
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+
+    .ofertas_container{
+        border-radius: 1rem;
+        background-color: #D7D2BF;
+        width: 300px;
+        height: 260px;
+        padding: 3rem;
+        text-align: start;
+
+        button{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            background: transparent;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .ofertas_button:hover{
+            background-color: black;
+            color: white;
+        }
+
+        h3{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.button_comentario{
+    text-align: start;
+    margin-top: -1.5rem;
+    button{
+            width: 20%;
+            height: 30px;
+            border-radius: 5px;
+            background: transparent;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: black;
+            color: white;
+        }
+}
+
+.ofertas_section2{
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+
+    .ofertas_container{
+        border-radius: 1rem;
+        background-color: #CCD7BF;
+        width: 300px;
+        height: 260px;
+        padding: 3rem;
+        text-align: start;
+        margin-top: 2rem;
+
+        button{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            background: transparent;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .ofertas_button:hover{
+            background-color: black;
+            color: white;
+        }
+
+        h3{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.input_comentario{
+    width: 59%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #d8d6d6;
+    padding: 1rem;
+    margin-top: -.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.descripcionProduct{
+    width: 65%;
+    margin-bottom: 2rem;
+}
