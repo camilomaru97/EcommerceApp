@@ -21,7 +21,7 @@ export const TableAdminProduct = ({ product }) => {
                         edit
                     </span>
                     <span 
-                        onClick={() => onDeleteProduct(product.id)}
+                        onClick={() => onDeleteProduct(product.id, product.precio)}
                         title="Eliminar" className="material-symbols-outlined delete">
                         delete
                     </span>

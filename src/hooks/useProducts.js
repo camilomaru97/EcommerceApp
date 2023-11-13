@@ -16,9 +16,9 @@ export const useProducts = () => {
 
   useEffect(() => {
     dispatch(getProducts());
-  }, []);
+  },[]);
 
-  const onDeleteProduct = (id) => {
+  const onDeleteProduct = (id, precio) => {
     dispatch(deleteProductById(id));
     Swal.fire(
       'Eliminado!',
@@ -50,8 +50,8 @@ export const useProducts = () => {
   };
 
   const onPostComment = (inputComment, productos) => {
-    productos.comments.push(inputComment)
-    dispatch(postComments(productos))
+    inputComment.productoId = productos.id
+    dispatch(postComments(inputComment, productos))
     Swal.fire(
       'Nuevo Comentario!',
       `Se ha posteado tu comentario correctamente.`,

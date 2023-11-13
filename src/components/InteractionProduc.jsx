@@ -7,9 +7,9 @@ export const InteractionProduc = ({ producto }) => {
   const { comments, descripcion } = producto;
   const [commentsProduct, setCommentsProduct] = useState(true);
   const [inputComment, setInputComment] = useState({
-    id: new Date().getTime().toString(),
     createAt: new Date().toString(),
     comment: '',
+    productoId: null
   });
 
   const { comment } = inputComment;
@@ -41,12 +41,11 @@ export const InteractionProduc = ({ producto }) => {
       }, 4000);
       return;
     }
-
     onPostComment(inputComment, producto);
     setInputComment({
-      id: new Date().getTime().toString(),
       createAt: new Date().toString(),
       comment: '',
+      productoId: null,
     });
   };
 

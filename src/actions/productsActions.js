@@ -91,8 +91,8 @@ export const addNewProduct = (product) => {
   return async (dispatch) => {
     dispatch(postPorductPending());
     try {
-      await addProductApi(product);
-      dispatch(postPorductFullfilled(product));
+      const newProduct = await addProductApi(product);
+      dispatch(postPorductFullfilled(newProduct));
     } catch (error) {
       dispatch(postPorductError());
     }
@@ -134,16 +134,17 @@ export const updateFindedProduct = (product, id) => {
 
 export const postCommentPending = () => ({ type: POST_COMMENT_PENDING });
 export const postCommentError = () => ({ type: POST_COMMENT_REJECTED });
-export const postCommentFullfilled = () => ({
+export const postCommentFullfilled = (comment) => ({
   type: POST_COMMENT_FULLFILLED,
-  payload: product,
+  payload: comment,
 });
 
-export const postComments = (producto) => {
+export const postComments = (comment, producto) => {
+  producto.comments.push(comment)
   return async (dispatch) => {
     dispatch(postCommentPending())
     try {
-      await postCommentApi(producto, producto.id)
+      await postCommentApi(comment)
       dispatch(postCommentFullfilled(producto))
     } catch (error) {
       dispatch(postCommentError())

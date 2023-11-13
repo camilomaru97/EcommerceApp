@@ -41,8 +41,9 @@ export const deleteProducApi = async (id) => {
 };
 
 export const addProductApi = async (product) => {
+  console.log(product)
   try {
-    const { data } = productsApi.post('productos', product);
+    const { data } = await productsApi.post('productos', product);
     return data;
   } catch (error) {
     throw new Error('No existe el producto para añdir');
@@ -50,17 +51,18 @@ export const addProductApi = async (product) => {
 };
 
 export const updateProductApi = async (product, id) => {
+  product.id = id
   try {
-    const { data } = await productsApi.put(`productos/${id}`, product);
+    const { data } = await productsApi.put(`productos`, product);
     return data;
   } catch (error) {
     throw new Error('No se ha podido actualizar el producto');
   }
 };
 
-export const postCommentApi = async (product, id) => {
+export const postCommentApi = async (comment) => {
   try {
-    const { data } = await productsApi.put(`productos/${id}`, product);
+    const { data } = await productsApi.post(`comments`, comment);
     return data
   } catch (error) {
     throw new Error('No se posteo el comentario')

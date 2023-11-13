@@ -8,7 +8,6 @@ import { useProducts } from "../../hooks/useProducts"
 export const AdminProducts = () => {
 
 	const [inputValues, setInputValues] = useState({
-		id: new Date().getTime().toString(),
 		urlImg: '',
 		name: '',
 		descripcion: '',
@@ -16,9 +15,9 @@ export const AdminProducts = () => {
 		stock: '',
 		precio: '',
 		codigoEAN: '',
-		comments: []
 	})
 	const [filterProducts, setFilterProducts] = useState(null)
+	const [filterByEan, setFilterByEan] = useState(null)
 	const { onAddProduct, onEditProductObject } = useProducts()
 	const dispatch = useDispatch()
 	const productos = useSelector(state => state.productos.productos)
@@ -30,7 +29,6 @@ export const AdminProducts = () => {
 		if (productoUpdateId) {
 			const producto = productos.find(product => product.id === productoUpdateId)
 			setInputValues({
-				id: producto.id,
 				urlImg: producto.urlImg,
 				name: producto.name,
 				descripcion: producto.descripcion,
@@ -38,17 +36,21 @@ export const AdminProducts = () => {
 				stock: producto.stock,
 				precio: producto.precio,
 				codigoEAN: producto.codigoEAN,
-				comments: producto.comments
 			})
 		}
 	}, [productoUpdateId])
-
-
+	
 	const filteredProducts  = typeof filterProducts === 'string' && filterProducts.length > 0
-		? productos.filter(product => {
-			return product.name.toLowerCase().includes(filterProducts.toLowerCase())
-			})
-		: productos
+	? productos.filter(product => {
+		return product.name.toLowerCase().includes(filterProducts.toLowerCase())
+	})
+	: productos
+	
+	const filteredByEan = typeof filterByEan === 'string' && filterByEan.length > 0 
+		? productos.filter( producto => {
+			return producto.codigoEAN.toLowerCase().includes(filterByEan.toLowerCase())
+		})
+		: filteredProducts
 
 	const handleInputImageChange = async ({ target }) => {
 		if (target.files === 0) return
@@ -70,7 +72,6 @@ export const AdminProducts = () => {
 		e.preventDefault()
 		onAddProduct(inputValues)
 		setInputValues({
-			id: new Date().getTime().toString(),
 			urlImg: '',
 			name: '',
 			descripcion: '',
@@ -81,13 +82,11 @@ export const AdminProducts = () => {
 		})
 	}
 
-	console.log(filteredProducts)
-
 	const hanldeEditProductSubmit = (e) => {
 		e.preventDefault()
-		onEditProductObject(inputValues, inputValues.id)
+		onEditProductObject(inputValues, productoUpdateId)
 		setInputValues({
-			id: new Date().getTime().toString(),
+			id: null,
 			urlImg: '',
 			name: '',
 			descripcion: '',
@@ -235,6 +234,13 @@ export const AdminProducts = () => {
 							type="text"
 							placeholder="Search a Product"
 						/>
+						<input
+							onChange={(e) => {
+								setFilterByEan(e.target.value)}
+							}
+							type="text"
+							placeholder="Codigo EAN"
+						/>
 						<button>
 							Imprimir Reporte
 						</button>
@@ -242,6 +248,7 @@ export const AdminProducts = () => {
 					<main className="productsLit_admin">
 						<TableAdminProducts 
 							filteredProducts={filteredProducts}
+							filteredByEan={filteredByEan}
 						/>
 						<p>{`< 7 de 20 >`}</p>
 					</main>

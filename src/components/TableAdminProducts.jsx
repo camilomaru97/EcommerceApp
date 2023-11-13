@@ -1,9 +1,7 @@
 import { useProducts } from '../hooks/useProducts';
 
-export const TableAdminProducts = ({ filteredProducts }) => {
+export const TableAdminProducts = ({ filteredProducts, filteredByEan }) => {
   const { productos, onDeleteProduct, onEditProduct } = useProducts();
-
-  console.log(filteredProducts);
 
   return (
     <table className="product_table">
@@ -11,14 +9,14 @@ export const TableAdminProducts = ({ filteredProducts }) => {
         <tr>
           <th>Producto</th>
           <th style={{ textAlign: 'center' }}>Categoria</th>
-          <th style={{ textAlign: 'center' }}>Stock</th>
+          <th style={{ textAlign: 'center' }}>Codigo EAN</th>
           <th style={{ textAlign: 'center' }}>Precio</th>
           <th style={{ textAlign: 'start' }}>Acciones</th>
         </tr>
       </thead>
 
-      {Array.isArray(filteredProducts)
-        ? filteredProducts.map((product) => {
+      {Array.isArray(filteredByEan)
+        ? filteredByEan.map((product) => {
             return (
               <tbody key={product.id}>
                 <tr>
@@ -32,7 +30,7 @@ export const TableAdminProducts = ({ filteredProducts }) => {
                     {product.section}
                   </td>
                   <td style={{ width: '200px', textAlign: 'center' }}>
-                    {product.stock}
+                    {product.codigoEAN}
                   </td>
                   <td style={{ width: '250px', textAlign: 'center' }}>
                     {product.precio}
@@ -45,13 +43,13 @@ export const TableAdminProducts = ({ filteredProducts }) => {
                     >
                       edit
                     </span>
-                    <span
-                      onClick={() => onDeleteProduct(product.id)}
+                    <span                                       
+                      onClick={() => onDeleteProduct(product.id, product.precio)}
                       title="Eliminar"
                       className="material-symbols-outlined delete"
                     >
-                      delete
-                    </span>
+                       delete
+                    </span> 
                   </td>
                 </tr>
               </tbody>

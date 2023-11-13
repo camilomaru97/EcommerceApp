@@ -1,11 +1,11 @@
-import { useDispatch } from "react-redux";
-import { getProducts } from "../actions/productsActions";
+import { useSelector } from "react-redux";
 import { AllProduct } from "./AllProduct"
 import { useProducts } from "../hooks/useProducts";
 
 
 export const AllProducts = () => {
-	const { productos } = useProducts()
+	const { productos } = useSelector((state) => state.productos);
+	useProducts();
 	return (
 		<main className="products_container">
 			<section className="products">

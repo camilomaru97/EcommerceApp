@@ -99,7 +99,7 @@ export const productsReducer = (state = initialState, action) => {
       return {
         ...state,
         productos: state.productos.map((producto) =>
-          producto.id === action.payload.id
+          producto.id === action.payload.productoId
             ? (producto = action.payload)
             : producto
         ),

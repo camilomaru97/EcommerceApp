@@ -1,11 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link, useLocation } from 'react-router-dom';
-import { useProducts } from '../hooks/useProducts';
 
 export const Header = () => {
   const cart = useSelector((state) => state.cart);
-  const { productos } = useProducts();
   const [searchValue, setSearchValue] = useState('');
   const [adminPage, setAdminPage] = useState(false);
   let locationPath = useLocation();
@@ -42,12 +40,13 @@ export const Header = () => {
         </Link>
         <form className="search_input" onSubmit={handleSearchSubmit}>
           <input
+            style={{display: 'none'}}
             onChange={handleSearchInput}
             type="text"
             placeholder="Search"
             value={searchValue}
           />
-          <span className="material-symbols-outlined search">search</span>
+          {/* <span className="material-symbols-outlined search">search</span> */}
         </form>
         <section>
           <div className="cart">
