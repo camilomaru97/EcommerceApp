@@ -7,6 +7,7 @@ import {
   postComments,
   updateFindedProduct,
   updateProductById,
+  updatePurchasedProduct,
 } from '../actions/productsActions';
 import Swal from 'sweetalert2';
 
@@ -30,6 +31,10 @@ export const useProducts = () => {
   const onEditProduct = (id) => {
     dispatch(updateProductById(id));
   };
+
+  const onUpdateProductPurchased = (product) => {
+    dispatch(updatePurchasedProduct(product))
+  } 
 
   const onEditProductObject = (product, id) => {
     dispatch(updateFindedProduct(product, id));
@@ -65,6 +70,7 @@ export const useProducts = () => {
     onEditProduct,
     onAddProduct,
     onEditProductObject,
-    onPostComment
+    onPostComment,
+    onUpdateProductPurchased
   };
 };

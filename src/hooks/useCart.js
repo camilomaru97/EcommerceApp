@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addCart, deleteCartProduct } from "../actions/cartActions";
+import { addCart, deleteCartProduct, resetCart } from "../actions/cartActions";
 
 export const useCart = () => {
 
@@ -11,10 +11,15 @@ export const useCart = () => {
 
   const onDeleteCart = (id) => {
     dispatch(deleteCartProduct(id))
+  }
 
-}
+  const onResetCart = () => {
+    dispatch(resetCart())
+  }
+
   return {
     onAddCart,
-    onDeleteCart
+    onDeleteCart,
+    onResetCart
   };
 };

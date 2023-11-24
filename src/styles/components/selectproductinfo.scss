@@ -133,3 +133,17 @@
 
     
 }
+
+select{
+    margin-top: .5rem;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #D7D2BF;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.selected{
+    background-color: black;
+}

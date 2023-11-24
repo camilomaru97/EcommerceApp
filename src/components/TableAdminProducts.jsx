@@ -9,7 +9,7 @@ export const TableAdminProducts = ({ filteredProducts, filteredByEan }) => {
         <tr>
           <th>Producto</th>
           <th style={{ textAlign: 'center' }}>Categoria</th>
-          <th style={{ textAlign: 'center' }}>Codigo EAN</th>
+          <th style={{ textAlign: 'center' }}>Stock</th>
           <th style={{ textAlign: 'center' }}>Precio</th>
           <th style={{ textAlign: 'start' }}>Acciones</th>
         </tr>
@@ -30,7 +30,7 @@ export const TableAdminProducts = ({ filteredProducts, filteredByEan }) => {
                     {product.section}
                   </td>
                   <td style={{ width: '200px', textAlign: 'center' }}>
-                    {product.codigoEAN}
+                    {product.stock}
                   </td>
                   <td style={{ width: '250px', textAlign: 'center' }}>
                     {product.precio}

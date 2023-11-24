@@ -1,4 +1,4 @@
-import { ADD_PRODUCT_CART, DELETE_PRODUCT_CART } from '../types';
+import { ADD_PRODUCT_CART, DELETE_PRODUCT_CART, RESET_PRODUCT_CART, UPDATE_PRODUCT_CART } from '../types';
 
 const initialState = {
   productos: [],
@@ -11,11 +11,14 @@ export const cartReducer = (state = initialState, action) => {
       return {
         productos: [...state.productos, action.payload],
       };
-
     case DELETE_PRODUCT_CART:
       return {
         productos: state.productos.filter(product => product.id !== action.payload)
       };
+
+    case RESET_PRODUCT_CART: 
+      return initialState
+  
     default:
       return state;
   }

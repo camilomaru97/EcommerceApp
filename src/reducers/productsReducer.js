@@ -15,7 +15,10 @@ import {
   UPDATE_GET_PRODUCT,
   POST_COMMENT_PENDING,
   POST_COMMENT_REJECTED,
-  POST_COMMENT_FULLFILLED
+  POST_COMMENT_FULLFILLED,
+  UPDATE_PRODUCT_PURCHASED_FULLFILLED,
+  UPDATE_PRODUCT_PURCHASED_PENDING,
+  UPDATE_PRODUCT_PURCHASED_REJECTED
 } from '../types';
 
 const initialState = {
@@ -28,6 +31,7 @@ const initialState = {
 
 export const productsReducer = (state = initialState, action) => {
   switch (action.type) {
+    case UPDATE_PRODUCT_PURCHASED_PENDING:
     case POST_COMMENT_PENDING:
     case POST_PRODUCT_PENDING:
     case UPDATE_PRODUCT_PENDING:
@@ -39,6 +43,7 @@ export const productsReducer = (state = initialState, action) => {
         loading: true,
       };
 
+    case UPDATE_PRODUCT_PURCHASED_REJECTED:
     case POST_COMMENT_REJECTED:  
     case UPDATE_PRODUCT_REJECTED:
     case POST_PRODUCT_REJECTED:
@@ -84,6 +89,7 @@ export const productsReducer = (state = initialState, action) => {
         productos: [...state.productos, action.payload],
       };
 
+    case UPDATE_PRODUCT_PURCHASED_FULLFILLED:
     case UPDATE_PRODUCT_FULLFILLED:
       return {
         ...state,

@@ -36,6 +36,7 @@
                 border: 1px solid #D7D2BF;
                 border-radius: 16px;
                 margin-bottom: 1rem;
+                overflow: hidden;
             }
             
             .cart_product_img{
@@ -68,7 +69,7 @@
                     cursor: pointer;
                     position: absolute;
                     top: 3px;
-                    right: 0px;
+                    right: -30px;
 
                     &:hover{
                         color: #EB6161;
@@ -77,6 +78,8 @@
             }
         }
     }
+
+
 
 
     .cart_payment{

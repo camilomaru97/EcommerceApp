@@ -8,18 +8,22 @@ export const Cart = () => {
   let sumaPrecios = 0;
   const cart = useSelector((state) => state.cart);
   const [sumaUpdated, setSumaUpdated] = useState(0);
+  const [cantidadValue, setCantidadValue] = useState(1);
   const numberProductsAdded = cart ? cart.productos.length : 0;
 
-  if (cart && cart.productos) {
+  if (cart?.productos) {
     cart.productos.forEach((producto) => {
-      sumaPrecios += Number(producto.precio);
+      sumaPrecios += Number(producto.precioTotal);
     });
   }
+
+  console.log(sumaPrecios)
   
   const formatNumber = (number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
   };
   const formatingNumberPrice = formatNumber(sumaPrecios);
+
 
   return (
     <>
@@ -48,21 +52,13 @@ export const Cart = () => {
           </div>
 
           <section className="cart_product">
-            {cart.productos &&
-              cart.productos.map((producto) => (
-                <ProductCart
-                  setSumaUpdated={setSumaUpdated}
-                  key={producto.id}
-                  producto={producto}
-                  formatingNumberPrice={formatingNumberPrice}
-                />
-              ))}
+                <ProductCart />
           </section>
         </section>
 
         <section className="cart_payment">
           <Link to="/info-entrega">
-            <button>Ir a Pagar</button>
+            <button onClick={() => {}}>Ir a Pagar</button>
           </Link>
           <h2 style={{ margin: '1.5rem 0rem' }}>RESUMEN DEL PEDIDO</h2>
           <div

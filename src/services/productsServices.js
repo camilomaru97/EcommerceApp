@@ -59,6 +59,17 @@ export const updateProductApi = async (product, id) => {
     throw new Error('No se ha podido actualizar el producto');
   }
 };
+export const updatePurchasedProductApi = async (product) => {
+  product.stock = product.stock - product.cantidadSelect
+  delete product.cantidadSelect
+  delete product.precioTotal
+  try {
+    const { data } = await productsApi.put(`productos`, product);
+    return data;
+  } catch (error) {
+    throw new Error('No se ha podido actualizar el producto');
+  }
+};
 
 export const postCommentApi = async (comment) => {
   try {
