@@ -33,7 +33,7 @@ export const TableAdminProducts = ({ filteredProducts, filteredByEan }) => {
                     {product.stock}
                   </td>
                   <td style={{ width: '250px', textAlign: 'center' }}>
-                    {product.precio}
+                    {product.precio.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')}
                   </td>
                   <td>
                     <span
