@@ -60,35 +60,35 @@ export const InfoEntrega = () => {
 
   const handleClickFinalProcess = (e) => {
     e.preventDefault();
-    // const inputs = [
-    //   'nombre',
-    //   'apellido',
-    //   'direccion',
-    //   'ciudad',
-    //   'departamento',
-    //   'codigoPostal',
-    //   'correoElectronico',
-    //   'numeroTelefono',
-    //   'tipoDocumento',
-    //   'numeroDocumento',
-    //   'titularTarjeta',
-    //   'numeroTarjeta',
-    //   'fecha',
-    //   'cvv',
-    // ];
-    // let newError = {};
-    // inputs.forEach((input) => {
-    //   if (valueInput[input] === '') {
-    //     return (newError[input] = 'Este campo es obligatorio');
-    //   }
-    // });
-    // setError(newError);
-    // setValidError(true);
-    // setTimeout(() => {
-    //   setValidError(false);
-    // }, 3000);
+    const inputs = [
+      'nombre',
+      'apellido',
+      'direccion',
+      'ciudad',
+      'departamento',
+      'codigoPostal',
+      'correoElectronico',
+      'numeroTelefono',
+      'tipoDocumento',
+      'numeroDocumento',
+      'titularTarjeta',
+      'numeroTarjeta',
+      'fecha',
+      'cvv',
+    ];
+    let newError = {};
+    inputs.forEach((input) => {
+      if (valueInput[input] === '') {
+        return (newError[input] = 'Este campo es obligatorio');
+      }
+    });
+    setError(newError);
+    setValidError(true);
+    setTimeout(() => {
+      setValidError(false);
+    }, 3000);
 
-    // if (Object.keys(newError).length > 0) return;
+    if (Object.keys(newError).length > 0) return;
 
     Swal.fire({
       position: 'center',
@@ -102,7 +102,9 @@ export const InfoEntrega = () => {
 		  navigate('/');
 	  }, 5000);
 
-    onUpdateProductPurchased(cart[0])
+    cart.map( async (item) =>  {
+      await onUpdateProductPurchased(item)
+    })
     onResetCart()
     
   };
