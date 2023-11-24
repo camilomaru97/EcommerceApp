@@ -31,8 +31,6 @@ export const InfoEntrega = () => {
   const cart = useSelector((state) => state.cart.productos);
   const { onUpdateProductPurchased } = useProducts()
 
-  console.log(cart)
-
 
   const {
     nombre,

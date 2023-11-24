@@ -42,7 +42,6 @@ export const updatePurchasedProduct = (product) => {
     dispatch(uptadeProductPending())
     try {
       const resp = await updatePurchasedProductApi(product)
-	  console.log(resp)
       dispatch(uptadeProductFullfilled(resp))
     } catch (error) {
       dispatch(uptadeProductRejected())

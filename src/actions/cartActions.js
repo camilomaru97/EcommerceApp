@@ -27,7 +27,6 @@ export const deteleCarFullfilled = (id) => ({
 
 export const deleteCartProduct = (id) => {
   return (dispatch) => {
-    console.log( typeof id)
     dispatch(deteleCarFullfilled(id));
   };
 };

@@ -41,7 +41,6 @@ export const deleteProducApi = async (id) => {
 };
 
 export const addProductApi = async (product) => {
-  console.log(product)
   try {
     const { data } = await productsApi.post('productos', product);
     return data;

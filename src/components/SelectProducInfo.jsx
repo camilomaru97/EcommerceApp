@@ -20,7 +20,6 @@ export const SelectProducInfo = ({ producto }) => {
 
 	const handleSizeClick = (size) => {
 		setSelectedSize(size); 
-		console.log(size)
 	}
 
 	const hanldeInputCantidad = (e) => {
