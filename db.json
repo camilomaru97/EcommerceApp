@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "id": "1695786000324",
+      "id": 1695786000324,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695786563/ecommerce/flxjfrl1galeibhqm7uf.avif",
       "name": "Tenis Samba OG",
       "descripcion": "Los tenis adidas Samba han formado parte del ADN de las 3 Rayas por décadas. La silueta clásica ha traspasado los límites de la cancha de fútbol para influir en innumerables culturas y pioneros en el mundo de la moda. Este par conmemora los años 70, cuando un exclusivo programa de billetes de tren de un mes permitía a aventureros de todo el mundo explorar 21 países europeos. Estos clásicos te ayudan a enfrentar tu próxima aventura con estilo.",
@@ -29,16 +29,11 @@
           "id": "1695792593119",
           "createAt": "Wed Sep 27 2023 00:29:53 GMT-0500 (Colombia Standard Time)",
           "comment": "De los mejores productos que he probado, realmente son muy comodos"
-        },
-        {
-          "id": "1697325334094",
-          "createAt": "Sat Oct 14 2023 18:15:34 GMT-0500 (Colombia Standard Time)",
-          "comment": "La camiseta me la pela"
         }
       ]
     },
     {
-      "id": "1695786739046",
+      "id": 1695786739046,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695786832/ecommerce/ntlswzoliyvqsmz6w9vn.avif",
       "name": "Tenis Zpezial",
       "descripcion": "Handball Spezial W es un nuevo producto para Mujer de adidas. Te invitamos a ver las imágenes para apreciar más detalles desde diferentes ángulos. Si ya conoces Handball Spezial W S puedes dejar una reseña abajo; siempre nos encanta conocer tu opinión.\n\nAún estamos trabajando para tener más información de Handball Spezial W, así que vuelva pronto. Mientras tanto, toma nota del número de artículo que identifica el producto IF6562 para que lo puedas encontrar de nuevo fácilmente. Está categorizado como: Zapatillas y Tenis",
@@ -49,7 +44,7 @@
       "comments": []
     },
     {
-      "id": "1695787081900",
+      "id": 1695787081900,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787201/ecommerce/eul8v7cypcvfu1v8apak.avif",
       "name": "Tenis Duramo ",
       "descripcion": "Siente la ligereza y velocidad. Si estás listo para subir el ritmo y entrenar para distancias de hasta 10 kilómetros, estos tenis para correr de adidas te ayudarán en tus carreras con la máxima comodidad. Presenta una parte superior de monomalla ligera y una mediasuela LIGHTMOTION que te proporciona una gran estabilidad. En la pista o en asfalto, la suela Adiwear proporciona durabilidad y agarre.\n\nEl exterior contiene al menos un 50 % de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
@@ -60,7 +55,7 @@
       "comments": []
     },
     {
-      "id": "1695787597975",
+      "id": 1695787597975,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787765/ecommerce/vds5nygcsx3z7vpccar9.avif",
       "name": "Tenis Bravada",
       "descripcion": "Los tenis de lona tienen una esencia clásica y este diseño de adidas la aprovecha al máximo. La suela gruesa con plataforma eleva tu look con actitud y audacia, pero nunca a expensas de la comodidad. La amortiguación Cloudfoam te brinda amortiguación durante todo el día para mayor comodidad, y la suela de caucho brinda un agarre sólido que completa el look informal y moderno.\n\nTrabajamos con Better Cotton para mejorar el cultivo del algodón a nivel mundial. Better Cotton hace que la producción mundial de algodón sea mejor para las personas que lo producen, mejor para el medio ambiente en el que crece y mejor para el futuro del sector. \n\nEl algodón Better Cotton se obtiene a través de un modelo de cadena de custodia llamado balance de masas. Esto significa que Better Cotton no es físicamente rastreable a nivel de productos finales. Sin embargo, los agricultores de Better Cotton se benefician de la demanda de Better Cotton en volúmenes equivalentes a los que utilizamos como marca.",
@@ -71,7 +66,7 @@
       "comments": []
     },
     {
-      "id": "1695787773714",
+      "id": 1695787773714,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695787859/ecommerce/rimahudfgi2qd38yxxwx.avif",
       "name": "Tenis Bonega",
       "descripcion": "El look que ya conoces y adoras con una suela de plataforma Puede que sea solo un pequeño cambio, pero hace toda la diferencia para estos tenis Stan Smith de adidas. La suela elevada se destaca aún más con un ribete de suela de doble capa que enfatiza las proporciones. El exterior suave de primera calidad le añade un elemento premium al modelo, convirtiéndolo en el balance perfecto entre un look de bajo y alto perfil, y en el par de tenis ideal para combinar con todo.",
@@ -82,7 +77,7 @@
       "comments": []
     },
     {
-      "id": "1695787972207",
+      "id": 1695787972207,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788000/ecommerce/dc6yd7azsd0srsgx857s.avif",
       "name": "Tenis Advantage",
       "descripcion": "El deporte se presenta de muchas formas. Estos tenis inspirados en el estilo del running son perfectos para esos días ajetreados en los que estás siempre en movimiento. La cómoda amortiguación Cloudfoam de la mediasuela mantiene tus pies energizados en todo momento. Las 3 Rayas le confieren un toque deportivo e informal al mismo tiempo.\n\nEste producto está hecho con Primegreen, una serie de materiales reciclados de alto desempeño. 50 % del exterior está hecho con material reciclado. No contienen poliéster virgen.",
@@ -93,7 +88,7 @@
       "comments": []
     },
     {
-      "id": "1695788170147",
+      "id": 1695788170147,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788232/ecommerce/q9f7gzmtlmuxxy3pzi8c.avif",
       "name": "Te nis Duramo RC",
       "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
@@ -104,7 +99,7 @@
       "comments": []
     },
     {
-      "id": "1695788235947",
+      "id": 1695788235947,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788349/ecommerce/k6dl6q2uefgk0arpkzze.avif",
       "name": "Tenis Run Always",
       "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
@@ -115,7 +110,7 @@
       "comments": []
     },
     {
-      "id": "1695788351051",
+      "id": 1695788351051,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788396/ecommerce/ascwiydmnc8ybvr2a7gy.avif",
       "name": "Tenis Running Res",
       "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
@@ -126,7 +121,7 @@
       "comments": []
     },
     {
-      "id": "1695788468472",
+      "id": 1695788468472,
       "urlImg": "https://res.cloudinary.com/dhw9dwugf/image/upload/v1695788516/ecommerce/z4va1k0pwsnhsbnr9akp.avif",
       "name": "Duramo Retro Run",
       "descripcion": "Corre un poco más rápido. Corre un poco más lejos. Estos tenis de running adidas ofrecen ligereza, suavidad y sujeción para que puedas dar el siguiente paso en tu carrera. Su amortiguación de EVA le brinda confort a los entrenamientos y carreras, mientras su suela Adiwear provee agarre en la pista o pavimento.\n\nSu exterior contiene al menos un 50% de materiales reciclados. Este producto representa solo una de nuestras soluciones para ayudar a poner fin a los residuos plásticos.",
